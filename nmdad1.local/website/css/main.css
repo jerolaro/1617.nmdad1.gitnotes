@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i,400|Roboto:300,400');
+
+body{
+    background-color: #dcdcdc;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: 300;
+}
+
+.login{
+    text-align:center;
+    padding-top: 200px;
+}
+
+.logo{
+    width: 300px;
+    clear: both;
+}
+
+.login input,
+.login textarea{
+    width: 300px;
+    margin-top: 20px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.3em;
+}
+
+.login #btnSubmit,
+.login #btnContact{
+    background-color: #48CFAD;
+    color: white;
+    border: none;
+    padding: 10px ;
+    width: 320px;
+}
+
+.login #btnSubmit:hover,
+.login #btnContact:hover{
+    background-color: white;
+    color: #37BC9B;
+    border: #48CFAD 1px solid;
+}
+
+.brand img{
+    max-width: 40px;
+    margin-top: 12px;
+}
+
+.content .container{
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    font-size: 2em;
+    color: #262626;
+    padding:10px;
+}
+
+h2{
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+
+/* Categorieen */
+
+.sort {
+
+    color: #dcdcdc;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ccc;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #262626 url("../img/arrowdown.png") no-repeat 95% 50%;
+}
+
+.categorieen select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+.categorieen select:focus {
+    outline: none;
+}
+
+.small{
+    width: 50%;
+    float: left;
+}
+
+.activiteitBeeld{
+    overflow: hidden;
+    border-top: solid 3px #262626 ;
+    margin-bottom: -5px;
+    background-size: cover;
+    background-position:center;
+    height: 270px;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    
+
+
+}
+
+.activiteit:hover{
+    cursor: pointer;
+    
+
+
+}
+
+.activiteit {
+    display: block;
+    position: relative;
+    text-align: center;
+
+}
+
+.activiteit-container{
+    display: block;
+    position: relative;
+    text-align: center;
+    overflow:  hidden;
+
+}
+
+.activiteit h1{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px #262626;
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    top: 10%;
+    width: 80%;
+    margin: 10%;
+}
+
+.overlay{
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.3;
+
+}
+
+.unfav{
+
+    height: 30px;
+    width: 34px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-image: url('../img/heart-outline.png');
+    background-size: cover;
+
+}
+
+ .unfav:hover,
+.fav{
+    height: 30px;
+    width: 34px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-image: url('../img/heart.png');
+    background-size: cover;
+
+}
+
+/* detail */
+
+section img{
+    width: 100%;
+}
+
+p{
+    padding: 20px;
+    margin: 10px;
+    color: #262626;
+}
+.content .container{
+    width: 100%;
+    overflow: hidden;
+    padding: 0px;
+    margin-top: -15px;
+}
+
+.content .container a{
+    
+    text-decoration: none;
+     color: #37BC9B;
+
+}
+
+.content .container a:hover{
+    
+    text-decoration: none;
+    color: #262626;
+
+}
+
+iframe{
+    width: 100%;
+    height: 300px;
+}
+
+h2{
+    color: #37BC9B;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+/* Pad */
+
+@media screen and (min-width: 600px) {
+
+
+    .activiteit-container{
+        width: 50%;
+        float: left;
+        
+    }
+
+
+
+
+
+
+
+/* Desktop */
+
+@media screen and (min-width: 800px) {
+
+    .content .container{
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+    .activiteit-container{
+        width: 33.3333%;
+        float: left;
+        height: 250px;
+        
+    }
+
+    .container-data{
+        max-width: 1000px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .content img{
+    width: 50%;
+    margin-top: 0px;
+    margin-right: 20px;
+    float: left;
+}
+
+    h1{
+    font-size: 3em;
+}
+
+iframe{
+    float:left;
+    width: 50%;
+}
+
+p{
+    padding: 0px;;
+}
+
+}

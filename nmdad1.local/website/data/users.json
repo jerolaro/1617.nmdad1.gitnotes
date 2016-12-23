@@ -1,0 +1,12 @@
+{
+    "users":[
+        {
+            "firstname":"Jerome",
+            "lastname":"Laroy",
+            "password":"root",
+            "email":"jerolaro@student.arteveldehs.be",
+            "genderfemale":false
+
+        }
+    ]
+}
