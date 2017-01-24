@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/print/pdf.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Slide 1: Logo GoinG-->
+				<section class="basic">
+					<section><img src="images/logo_GoinG_NMDAD1_PS.png" alt="GoinG logo"></section>
+				</section>
+
+				<!-- Nested slides 1: Discover-->
+				<section class="discover">
+					<section><h1>1. Discover</h1></section>
+					<section>
+						<h2>Briefing</h2>
+						<p>
+							Maak een Mobile-first web-application die activiteiten, mooie plaatsen, enzovoort, oplijst
+							voor de gebruiker die niet weet wat te doen op een vrije dag. Maak voor deze applicatie gebruik
+							van de open data van Gent.	
+						</p> 
+					</section>
+				</section>
+				<!-- Nested slides 2: Define-->
+				<section class="define">
+					<section><h1>2. Define</h1></section>
+					<section class="fragments">
+						<h2>Analyse</h2>
+						<p class="fragment fade-up"><a href="#/2/2">Specificaties & Content</a></p>
+						<p class="fragment fade-up"><a href="#/2/3">Persona's</a></p>
+						
+						<h2>Inspiration</h2>
+						<p class="fragment fade-up"><a href="#/2/4">Moodboard</a></p>
+					</section>
+
+					<section class="fragments">
+						<h3>Specificaties</h3>
+						<ul>
+							<li class="fragment fade-right">Filter op verschillende Categorieën events</li>
+							<li class="fragment fade-right">activiteiten opslaan als favoriet</li>
+						</ul>
+						</br></br>
+						<h3 class="fragment fade-up">Content</h3>
+						<p class="mainText fragment fade-up">Gebruikte datasets in de applicatie</p>
+						<ul>
+							<li class="fragment fade-right">Lichtfestival</li>
+							<li class="fragment fade-right">VisitGent Events</li>
+							<li class="fragment fade-right">VisitGent Spots</li>
+							<li class="fragment fade-right">Kunstenplan</li>
+						</ul>
+					</section>
+					
+					<section class="fragments">
+						<h3>Persona's</h3>
+						<img width="30%" src="images/Personas/Persona_Elke.png" alt="persona">
+						<img width="30%" src="images/Personas/Persona_Mike.png" alt="persona">
+						<img width="30%" src="images/Personas/Persona_Emily.png" alt="persona">
+					</section>
+					<section class="fragments">
+						<h3>Moodboard</h3>
+						<p class="sidetext">alt + click to zoom</p>
+						<img width="30%" src="images/Inspiration/Moodboard.png" alt="Moodboard">
+					</section>
+				</section>
+
+				<!-- Nested slides 3: Design -->
+				<section class="design">
+					<section><h1>3. Design</h1></section>
+					<section>
+						<h2>Sitemap</h2>
+						<img src="images/Design/sitemap.png" alt="Sitemap">
+					</section>
+					<section>
+						<h2>Wireframes</h2>
+						<img src="images/Design/Wireframes.png" alt="Home">
+					</section>
+					<section>
+						<h2>Style tile</h2>
+						<img width="45%" src="images/Design/StyleTyle.pdf" alt="Home">
+					</section>
+					<section>
+						<h2>Mobile Designs</h2>
+						<img width="24%" height="500px" src="images/Design/Home-Mobile.png" alt="Menu">
+						<img width="24%" height="500px" src="images/Design/Profile-Mobile.png" alt="Filter">
+						<img width="24%" height="500px" src="images/Design/Categorieën-Mobile.png" alt="Categorieën">
+						<img width="24%" height="500px" src="images/Design/Contact-Mobile.png" alt="Categorieën">
+					</section>
+					<section>
+						<h2>Desktop Designs</h2>
+						<img width="49%" src="images/Design/Home-Desktop.png" alt="Menu">
+						<img width="49%" src="images/Design/Profile-Desktop.png" alt="Filter"></br>
+						<img width="49%" src="images/Design/Categorieën-Desktop.png" alt="Categorieën">
+						<img width="49%" src="images/Design/Contact-Desktop.png" alt="Categorieën">
+					</section>
+				</section>
+
+				<!-- Nested slides 4: Development -->
+				<section class="develop">
+					<section><h1>4. Development</h1></section>
+					<section>
+						<img width="49%" src="images/Code/ChooseUrl.png" alt="ChooseUrl">
+						<img width="49%" src="images/Code/GetAPI.png" alt="GetAPI">
+					</section>
+					<section>
+						<img src="images/Code/LocalStorage.png" alt="local storage"></br>
+						<img src="images/Code/WriteToDoc.png" alt="write to document">
+					</section>
+					<section>
+						<img  src="images/Code/Login.png" alt="Login"></br>
+						<img src="images/Code/DetailTriggerd.png" alt="Detail triggerd">
+					</section>
+				</section>
+
+				<!-- Nested slides Demo -->
+				<section>
+					<section><h1>Demonstratie</h1></section>
+					<section>
+						<div class="stretch">
+						<iframe src="images/screencast.mp4" height="100%" width="100%"></iframe>
+						</div>
+					</section>
+				</section>
+				
+				
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
